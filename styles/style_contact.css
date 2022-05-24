@@ -1,0 +1,64 @@
+.vide {
+  height: 100px;
+  border: 2px solid var(--gray);
+  border-left: none;
+}
+.logo_me {
+  display: flex;
+  justify-content: center;
+}
+.logo_me img {
+  margin-top: -50px;
+}
+.both_input_and_label {
+  display: flex;
+  justify-content: space-evenly;
+}
+.input_and_label {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: larger;
+}
+.textarea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+input {
+  border: 3px solid var(--gray);
+  width: 300px;
+  height: 50px;
+  color: white;
+  font-size: xx-large;
+}
+.textarea2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea {
+  border: 3px solid var(--gray);
+  resize: none;
+  color: white;
+  font-size: large;
+  width: 750px;
+  height: 275px;
+  margin-bottom: 10px;
+}
+.textarea label {
+  margin-left: 145px;
+}
+header {
+  border-right: 2px solid var(--gray);
+}
+.contact {
+  border-right: 2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
+}
+.textarea button {
+  width: 150px;
+  height: 60px;
+}

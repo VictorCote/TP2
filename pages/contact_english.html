@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="stylesheet" href="../styles/style_project.css" />
+    <link rel="stylesheet" href="../styles/style_contact.css" />
     <title>Portfolio-web</title>
     <link rel="icon" type="image/x-icon" href="/img/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +18,7 @@
   <body background="">
     <header>
       <div class="logo">
-        <a href="../index.html">
+        <a href="../index_english.html">
           <img
             src="../img/logo.png"
             alt="LOGO"
@@ -28,12 +28,16 @@
       <div class="lang_selection">
         <div class="lang">
           <div class="fr">
-            <button type="button">Français</button>
+            <button type="button">
+              <a class="lang_selection_buttons" href="contact.html">
+                Français
+              </a>
+            </button>
           </div>
         </div>
         <div class="lang">
           <button type="button">
-            <a class="lang_selection_buttons" href="project_english.html">
+            <a class="lang_selection_buttons" href="contact_english.html">
               English
             </a>
           </button>
@@ -41,16 +45,16 @@
       </div>
       <nav>
         <div class="nav_buttons">
-          <a href="contact.html">
+          <a href="contact_english.html">
             <img src="../img/phone_ico.png" alt="Contact" />
           </a>
-          <a href="project.html">
+          <a href="project_english.html">
             <img src="../img/file_ico.png" alt="Projet" />
           </a>
         </div>
       </nav>
     </header>
-    <div class="project">
+    <div class="contact">
       <div class="vide"></div>
       <div class="logo_me">
         <img
@@ -59,35 +63,33 @@
           style="width: 100px; height: 100px"
         />
       </div>
-      <div class="title">
-        <h1>Voici quelque projet que j'ai fait!</h1>
+      <div class="titre"><h1>Contact me!</h1></div>
+      <div class="form">
+        <form action="form_contact">
+          <div class="both_input_and_label">
+            <div class="input_and_label">
+              <label for="name">Full name</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="input_and_label">
+              <label for="mail">Email</label>
+              <input type="email" id="mail" />
+            </div>
+          </div>
+          <div class="textarea">
+            <label for="message">Message</label>
+            <div class="textarea2">
+              <textarea
+                name="message"
+                id="message"
+                cols="70"
+                rows="20"
+              ></textarea>
+              <button>Send!</button>
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="projects">
-        <div class="left">
-          <img 
-            src="../img/Project1.png"
-            alt=""
-            style="width: 400px; height: 200px"
-          />
-          <p>
-            Ceci est un projet que j'ai fait en c++, c'est un logiciel pour les banques,
-            avec, vous pouvez vous connecter, faire des dépôts, des retraits et des transferts d'argent.
-            Le logiciel comporte aussi une fonctionnalité permettant de voir l'historique de ses transactions!
-          </p>
-        </div>
-        <div class="right">
-          <img 
-            src="../img/Project2.png"
-            alt=""
-            style="width: 400px; height: 200px"
-          />
-          <p>Le site sur lequel vous naviguez présentement à aussi été fait par moi, le tout est disponible sur mon
-            <a href="https://github.com/VictorCote/TP2">github</a>
-            pour plus de détails!
-          </p>
-        </div>
-      </div>
-    </div>
     </div>
   </body>
 </html>

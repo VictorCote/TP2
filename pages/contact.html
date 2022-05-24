@@ -4,9 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/style_contact.css" />
+    <title>Portfolio-web</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1>Contact</h1>
+  <body background="">
+    <header>
+      <div class="logo">
+        <a href="../index.html">
+          <img
+            src="../img/logo.png"
+            alt="LOGO"
+            style="height: 125px; width: 125px"
+        /></a>
+      </div>
+      <div class="lang_selection">
+        <div class="lang">
+          <div class="fr">
+            <button type="button">Français</button>
+          </div>
+        </div>
+        <div class="lang">
+          <button type="button">
+            <a class="lang_selection_buttons" href="contact_english.html">
+              English
+            </a>
+          </button>
+        </div>
+      </div>
+      <nav>
+        <div class="nav_buttons">
+          <a href="contact.html">
+            <img src="../img/phone_ico.png" alt="Contact" />
+          </a>
+          <a href="project.html">
+            <img src="../img/file_ico.png" alt="Projet" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="contact">
+      <div class="vide"></div>
+      <div class="logo_me">
+        <img
+          src="../img/logo_me.png"
+          alt="logo_me"
+          style="width: 100px; height: 100px"
+        />
+      </div>
+      <div class="titre"><h1>Contactez moi!</h1></div>
+      <div class="form">
+        <form action="form_contact">
+          <div class="both_input_and_label">
+            <div class="input_and_label">
+              <label for="name">Nom Complet</label>
+              <input type="text" id="name" />
+            </div>
+            <div class="input_and_label">
+              <label for="mail">Adresse Couriel</label>
+              <input type="email" id="mail" />
+            </div>
+          </div>
+          <div class="textarea">
+            <label for="message">Message</label>
+            <div class="textarea2">
+              <textarea
+                name="message"
+                id="message"
+                cols="70"
+                rows="20"
+              ></textarea>
+              <button>Envoyer</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

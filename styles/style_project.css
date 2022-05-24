@@ -1,0 +1,37 @@
+.vide {
+  height: 100px;
+  border: 2px solid var(--gray);
+  border-left: none;
+}
+.logo_me {
+  display: flex;
+  justify-content: center;
+}
+.logo_me img {
+  margin-top: -50px;
+}
+header {
+  border-right: 2px solid var(--gray);
+}
+.project {
+  border-right: 2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.left {
+  width: 40%;
+}
+.right {
+  width: 40%;
+}
+.right a {
+  color: white;
+  font-family: var(--font_text);
+}
+p {
+  font-size: x-large;
+}
